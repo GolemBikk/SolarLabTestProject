@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Planner", "Planner\Planner.csproj", "{2D2C3853-FA05-4A3F-8A1D-369FD3D8A241}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Planner.DataAccess", "Planner.DataAccess\Planner.DataAccess.csproj", "{9B33D7BC-117C-487E-9661-A0F6BCF8CE21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Planner.BusinessLogic", "Planner.BusinessLogic\Planner.BusinessLogic.csproj", "{D4A789BF-6D7C-4077-90E7-3D795C748BDD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{2D2C3853-FA05-4A3F-8A1D-369FD3D8A241}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D2C3853-FA05-4A3F-8A1D-369FD3D8A241}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D2C3853-FA05-4A3F-8A1D-369FD3D8A241}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B33D7BC-117C-487E-9661-A0F6BCF8CE21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B33D7BC-117C-487E-9661-A0F6BCF8CE21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B33D7BC-117C-487E-9661-A0F6BCF8CE21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B33D7BC-117C-487E-9661-A0F6BCF8CE21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4A789BF-6D7C-4077-90E7-3D795C748BDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4A789BF-6D7C-4077-90E7-3D795C748BDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4A789BF-6D7C-4077-90E7-3D795C748BDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4A789BF-6D7C-4077-90E7-3D795C748BDD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
